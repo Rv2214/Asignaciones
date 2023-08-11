@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main__inicio">
+        
+        <div class="registrar__asignacion">
+            <h1>Sistema de Registro de Asignaciones</h1>
+            <input type="text" id="nombreInput" placeholder="Nombre">
+            <input type="text" id="apellidoInput" placeholder="Apellido">
+            <input type="text" id="puntoAsignadoInput" placeholder="Punto Asignado">
+            <button onclick="registrarAsignacion()">Registrar Asignación</button>
+        </div>
+
+        <div class="lista__asistencia">
+            <h2>Lista de Asistencia:</h2>
+            <ul id="listaAsistencia"></ul>
+        </div>
+        
+        <div class="agregar__punto">    
+            <h2>Agregar Nuevo Punto:</h2>
+            <input type="text" id="nuevoPuntoInput">
+        <button onclick="agregarNuevoPunto()">Agregar Nuevo Punto</button>
+        </div>    
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

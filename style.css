@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seleccionado {
+    background-color: #f0f0f0;
+}
+
+.main__inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registrar__asignacion{
+    background-color: rgb(228, 231, 180);
+}
+
+.lista__asistencia{
+    background-color: rgba(161, 223, 199, 0.801);
+}
+
+.agregar__punto{
+    background-color: rgb(171, 203, 204);
+}
